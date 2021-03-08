@@ -1,0 +1,9 @@
+! This is a test case !
+
+float a;
+float b;
+
+while (a < b):
+    a = a*a;
+
+STDoutput(a);
