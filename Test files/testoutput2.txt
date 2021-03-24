@@ -1,0 +1,45 @@
+TOKENS:	LEXEMES
+
+BLOCK COMMENT: ! Find the largest value between two numbers and keep track of the larger number !
+KEYWORD: bool
+IDENTIFIER: one_is_larger
+SEPARATOR: ,
+IDENTIFIER: two_is_larger
+OPERATOR: =
+KEYWORD: False
+SEPARATOR: ;
+KEYWORD: int
+IDENTIFIER: num1
+SEPARATOR: ,
+IDENTIFIER: num2$
+SEPARATOR: ,
+IDENTIFIER: large_num
+SEPARATOR: ;
+KEYWORD: if
+SEPARATOR: (
+IDENTIFIER: num1
+OPERATOR: >
+IDENTIFIER: num2$
+SEPARATOR: )
+SEPARATOR: {
+IDENTIFIER: large_num
+OPERATOR: =
+IDENTIFIER: num1
+SEPARATOR: ;
+IDENTIFIER: one_is_larger
+OPERATOR: =
+KEYWORD: True
+SEPARATOR: ;
+SEPARATOR: }
+KEYWORD: else
+SEPARATOR: {
+IDENTIFIER: large_num
+OPERATOR: =
+IDENTIFIER: num2$
+SEPARATOR: ;
+IDENTIFIER: two_is_larger
+OPERATOR: =
+KEYWORD: True
+SEPARATOR: ;
+SEPARATOR: }
+BLOCK COMMENT: ! Another block comment !
